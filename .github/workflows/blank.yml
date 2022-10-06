@@ -1,0 +1,20 @@
+name: SON
+
+
+on:
+  workflow_call:
+    inputs:
+      param1:
+        required: true
+        type: string
+      param2:
+        required: true
+        type: string
+        
+jobs:
+  son:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run 
+        run: echo "${{inputs.param1}} ${{inputs.param2}}"
