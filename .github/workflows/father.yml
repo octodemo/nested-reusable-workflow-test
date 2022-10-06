@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       FOO: ${{env.FOO}}
-      VAR: ${{env.BAR}}
+      BAR: ${{env.BAR}}
     steps:
       - run: echo "setting env vars as outputs"
       
