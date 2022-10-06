@@ -1,5 +1,4 @@
-name: SON
-
+name: Son
 
 on:
   workflow_call:
