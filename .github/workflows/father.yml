@@ -8,7 +8,7 @@ env:
   BAR: "bar"
 jobs:
   call-son-workflow:
-    uses: dhernandez-cto/nested-reusable-workflow-test/.github/workflows/son.yml@mail
+    uses: dhernandez-cto/nested-reusable-workflow-test/.github/workflows/son.yml@main
     with:
       param1: ${{env.FOO}}
       param2: ${{env.BAR}}
