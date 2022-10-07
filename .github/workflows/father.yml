@@ -19,8 +19,8 @@ jobs:
     needs: zero
     uses: dhernandez-cto/nested-reusable-workflow-test/.github/workflows/son.yml@main
     with:
-      param1: ${{needs.zero.outputs.FOO}}
-      param2: ${{needs.zero.outputs.BAR}}
-#      param1: ${{env.FOO}}
-#      param2: ${{env.BAR}}
+      #param1: ${{needs.zero.outputs.FOO}}
+      #param2: ${{needs.zero.outputs.BAR}}
+      param1: ${{env.FOO}}
+      param2: ${{env.BAR}}
       
